@@ -13,7 +13,7 @@ const MealItem = (props) => {
       <div className={classes.amount}>
         <div className={classes.input}>
           <h4>Amount</h4>
-          <input type='text' />
+          <input type='number' min={1} max={5} defaultValue={1} />
         </div>
         <div className={classes.button}>
           <button>+ Add</button>
