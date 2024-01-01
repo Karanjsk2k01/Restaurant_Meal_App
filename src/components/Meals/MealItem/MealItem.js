@@ -10,7 +10,16 @@ const MealItem = (props) => {
         <div className={classes.description}>{props.description}</div>
         <div className={classes.price}>{price}</div>
       </div>
-      <div></div>
+      <div className={classes.amount}>
+        <div className={classes.input}>
+          <h4>Amount</h4>
+          <input type='text' />
+        </div>
+        <div className={classes.button}>
+          <button>+ Add</button>
+        </div>
+      </div>
+
     </li>
   );
 };

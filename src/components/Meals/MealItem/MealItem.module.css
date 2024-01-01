@@ -20,3 +20,34 @@
   color: #ad5502;
   font-size: 1.25rem;
 }
+
+.amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.amount input {
+  width: 2rem;
+  height: 2rem;
+}
+
+.button button {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #6e2102;
+  cursor: pointer;
+}
