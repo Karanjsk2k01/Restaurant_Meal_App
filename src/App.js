@@ -7,7 +7,7 @@ import Summary from "./components/UI/Summary";
 function App() {
   return (
     <div>
-      <Cart />
+      {/* <Cart /> */}
       <Header />
       <Meals />
     </div>
